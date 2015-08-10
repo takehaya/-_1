@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40881781B78EEEC008230D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40881771B78EEEC008230D6 /* AppDelegate.swift */; };
+		C408817A1B78EEEC008230D6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40881791B78EEEC008230D6 /* FirstViewController.swift */; };
+		C408817C1B78EEEC008230D6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C408817B1B78EEEC008230D6 /* SecondViewController.swift */; };
+		C408817F1B78EEEC008230D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C408817D1B78EEEC008230D6 /* Main.storyboard */; };
+		C40881811B78EEEC008230D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40881801B78EEEC008230D6 /* Assets.xcassets */; };
+		C40881841B78EEEC008230D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40881821B78EEEC008230D6 /* LaunchScreen.storyboard */; };
+		C408818F1B78EEEC008230D6 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C408818E1B78EEEC008230D6 /* ____Tests.swift */; };
+		C408819A1B78EEEC008230D6 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40881991B78EEEC008230D6 /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C408818B1B78EEEC008230D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C408816C1B78EEEC008230D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40881731B78EEEC008230D6;
+			remoteInfo = "冷蔵庫帳";
+		};
+		C40881961B78EEEC008230D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C408816C1B78EEEC008230D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40881731B78EEEC008230D6;
+			remoteInfo = "冷蔵庫帳";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C40881741B78EEEC008230D6 /* 冷蔵庫帳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "冷蔵庫帳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40881771B78EEEC008230D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C40881791B78EEEC008230D6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C408817B1B78EEEC008230D6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C408817E1B78EEEC008230D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C40881801B78EEEC008230D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C40881831B78EEEC008230D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C40881851B78EEEC008230D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C408818A1B78EEEC008230D6 /* 冷蔵庫帳Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "冷蔵庫帳Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C408818E1B78EEEC008230D6 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		C40881901B78EEEC008230D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40881951B78EEEC008230D6 /* 冷蔵庫帳UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "冷蔵庫帳UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40881991B78EEEC008230D6 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		C408819B1B78EEEC008230D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40881711B78EEEC008230D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40881871B78EEEC008230D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40881921B78EEEC008230D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C408816B1B78EEEC008230D6 = {
+			isa = PBXGroup;
+			children = (
+				C40881761B78EEEC008230D6 /* 冷蔵庫帳 */,
+				C408818D1B78EEEC008230D6 /* 冷蔵庫帳Tests */,
+				C40881981B78EEEC008230D6 /* 冷蔵庫帳UITests */,
+				C40881751B78EEEC008230D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40881751B78EEEC008230D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40881741B78EEEC008230D6 /* 冷蔵庫帳.app */,
+				C408818A1B78EEEC008230D6 /* 冷蔵庫帳Tests.xctest */,
+				C40881951B78EEEC008230D6 /* 冷蔵庫帳UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40881761B78EEEC008230D6 /* 冷蔵庫帳 */ = {
+			isa = PBXGroup;
+			children = (
+				C40881771B78EEEC008230D6 /* AppDelegate.swift */,
+				C40881791B78EEEC008230D6 /* FirstViewController.swift */,
+				C408817B1B78EEEC008230D6 /* SecondViewController.swift */,
+				C408817D1B78EEEC008230D6 /* Main.storyboard */,
+				C40881801B78EEEC008230D6 /* Assets.xcassets */,
+				C40881821B78EEEC008230D6 /* LaunchScreen.storyboard */,
+				C40881851B78EEEC008230D6 /* Info.plist */,
+			);
+			path = "冷蔵庫帳";
+			sourceTree = "<group>";
+		};
+		C408818D1B78EEEC008230D6 /* 冷蔵庫帳Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C408818E1B78EEEC008230D6 /* ____Tests.swift */,
+				C40881901B78EEEC008230D6 /* Info.plist */,
+			);
+			path = "冷蔵庫帳Tests";
+			sourceTree = "<group>";
+		};
+		C40881981B78EEEC008230D6 /* 冷蔵庫帳UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C40881991B78EEEC008230D6 /* ____UITests.swift */,
+				C408819B1B78EEEC008230D6 /* Info.plist */,
+			);
+			path = "冷蔵庫帳UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40881731B78EEEC008230D6 /* 冷蔵庫帳 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C408819E1B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳" */;
+			buildPhases = (
+				C40881701B78EEEC008230D6 /* Sources */,
+				C40881711B78EEEC008230D6 /* Frameworks */,
+				C40881721B78EEEC008230D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "冷蔵庫帳";
+			productName = "冷蔵庫帳";
+			productReference = C40881741B78EEEC008230D6 /* 冷蔵庫帳.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C40881891B78EEEC008230D6 /* 冷蔵庫帳Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40881A11B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳Tests" */;
+			buildPhases = (
+				C40881861B78EEEC008230D6 /* Sources */,
+				C40881871B78EEEC008230D6 /* Frameworks */,
+				C40881881B78EEEC008230D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C408818C1B78EEEC008230D6 /* PBXTargetDependency */,
+			);
+			name = "冷蔵庫帳Tests";
+			productName = "冷蔵庫帳Tests";
+			productReference = C408818A1B78EEEC008230D6 /* 冷蔵庫帳Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C40881941B78EEEC008230D6 /* 冷蔵庫帳UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40881A41B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳UITests" */;
+			buildPhases = (
+				C40881911B78EEEC008230D6 /* Sources */,
+				C40881921B78EEEC008230D6 /* Frameworks */,
+				C40881931B78EEEC008230D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40881971B78EEEC008230D6 /* PBXTargetDependency */,
+			);
+			name = "冷蔵庫帳UITests";
+			productName = "冷蔵庫帳UITests";
+			productReference = C40881951B78EEEC008230D6 /* 冷蔵庫帳UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C408816C1B78EEEC008230D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "早坂彪流";
+				TargetAttributes = {
+					C40881731B78EEEC008230D6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C40881891B78EEEC008230D6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C40881731B78EEEC008230D6;
+					};
+					C40881941B78EEEC008230D6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C40881731B78EEEC008230D6;
+					};
+				};
+			};
+			buildConfigurationList = C408816F1B78EEEC008230D6 /* Build configuration list for PBXProject "冷蔵庫帳" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C408816B1B78EEEC008230D6;
+			productRefGroup = C40881751B78EEEC008230D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40881731B78EEEC008230D6 /* 冷蔵庫帳 */,
+				C40881891B78EEEC008230D6 /* 冷蔵庫帳Tests */,
+				C40881941B78EEEC008230D6 /* 冷蔵庫帳UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40881721B78EEEC008230D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40881841B78EEEC008230D6 /* LaunchScreen.storyboard in Resources */,
+				C40881811B78EEEC008230D6 /* Assets.xcassets in Resources */,
+				C408817F1B78EEEC008230D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40881881B78EEEC008230D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40881931B78EEEC008230D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40881701B78EEEC008230D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C408817C1B78EEEC008230D6 /* SecondViewController.swift in Sources */,
+				C40881781B78EEEC008230D6 /* AppDelegate.swift in Sources */,
+				C408817A1B78EEEC008230D6 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40881861B78EEEC008230D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C408818F1B78EEEC008230D6 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40881911B78EEEC008230D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C408819A1B78EEEC008230D6 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C408818C1B78EEEC008230D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40881731B78EEEC008230D6 /* 冷蔵庫帳 */;
+			targetProxy = C408818B1B78EEEC008230D6 /* PBXContainerItemProxy */;
+		};
+		C40881971B78EEEC008230D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40881731B78EEEC008230D6 /* 冷蔵庫帳 */;
+			targetProxy = C40881961B78EEEC008230D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C408817D1B78EEEC008230D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C408817E1B78EEEC008230D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40881821B78EEEC008230D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40881831B78EEEC008230D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C408819C1B78EEEC008230D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C408819D1B78EEEC008230D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C408819F1B78EEEC008230D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "冷蔵庫帳/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "take.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C40881A01B78EEEC008230D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "冷蔵庫帳/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "take.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C40881A21B78EEEC008230D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "冷蔵庫帳Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "take.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/冷蔵庫帳.app/冷蔵庫帳";
+			};
+			name = Debug;
+		};
+		C40881A31B78EEEC008230D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "冷蔵庫帳Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "take.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/冷蔵庫帳.app/冷蔵庫帳";
+			};
+			name = Release;
+		};
+		C40881A51B78EEEC008230D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "冷蔵庫帳UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "take.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "冷蔵庫帳";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C40881A61B78EEEC008230D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "冷蔵庫帳UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "take.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "冷蔵庫帳";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C408816F1B78EEEC008230D6 /* Build configuration list for PBXProject "冷蔵庫帳" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C408819C1B78EEEC008230D6 /* Debug */,
+				C408819D1B78EEEC008230D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C408819E1B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C408819F1B78EEEC008230D6 /* Debug */,
+				C40881A01B78EEEC008230D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C40881A11B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40881A21B78EEEC008230D6 /* Debug */,
+				C40881A31B78EEEC008230D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C40881A41B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40881A51B78EEEC008230D6 /* Debug */,
+				C40881A61B78EEEC008230D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C408816C1B78EEEC008230D6 /* Project object */;
+}
