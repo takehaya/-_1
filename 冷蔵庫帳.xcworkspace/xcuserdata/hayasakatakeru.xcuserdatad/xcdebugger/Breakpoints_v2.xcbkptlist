@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x51b7;&#x8535;&#x5eab;&#x5e33;/FirstViewController.swift"
+            timestampString = "461047853.350589"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "FirstViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x51b7;&#x8535;&#x5eab;&#x5e33;.FirstViewController.__deallocating_deinit"
+                  moduleName = "&#x51b7;&#x8535;&#x5eab;&#x5e33;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hayasakatakeru/Desktop/%E5%86%B7%E8%94%B5%E5%BA%AB%E5%B8%B3_1/%E5%86%B7%E8%94%B5%E5%BA%AB%E5%B8%B3/FirstViewController.swift"
+                  timestampString = "461430597.474625"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x51b7;&#x8535;&#x5eab;&#x5e33;.FirstViewController.init (&#x51b7;&#x8535;&#x5eab;&#x5e33;.FirstViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; &#x51b7;&#x8535;&#x5eab;&#x5e33;.FirstViewController"
+                  moduleName = "&#x51b7;&#x8535;&#x5eab;&#x5e33;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hayasakatakeru/Desktop/%E5%86%B7%E8%94%B5%E5%BA%AB%E5%B8%B3_1/%E5%86%B7%E8%94%B5%E5%BA%AB%E5%B8%B3/FirstViewController.swift"
+                  timestampString = "461430597.474817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x51b7;&#x8535;&#x5eab;&#x5e33;.FirstViewController.init (&#x51b7;&#x8535;&#x5eab;&#x5e33;.FirstViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;&#x51b7;&#x8535;&#x5eab;&#x5e33;.FirstViewController&gt;"
+                  moduleName = "&#x51b7;&#x8535;&#x5eab;&#x5e33;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hayasakatakeru/Desktop/%E5%86%B7%E8%94%B5%E5%BA%AB%E5%B8%B3_1/%E5%86%B7%E8%94%B5%E5%BA%AB%E5%B8%B3/FirstViewController.swift"
+                  timestampString = "461430597.474947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x51b7;&#x8535;&#x5eab;&#x5e33;/&#x51b7;&#x8535;&#x5eab;&#x5e33;-Bridging-Header.h"
+            timestampString = "461067609.958404"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x51b7;&#x8535;&#x5eab;&#x5e33;/cameViewController.swift"
+            timestampString = "461430686.339804"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x51b7;&#x8535;&#x5eab;&#x5e33;/cameViewController.swift"
+            timestampString = "461430686.339804"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

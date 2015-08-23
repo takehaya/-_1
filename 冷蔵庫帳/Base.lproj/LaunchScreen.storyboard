@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8076" systemVersion="14D121" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8063"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -17,28 +19,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2015年 早坂彪流. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
-                                <rect key="frame" x="20" y="559" width="560" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="れいぞうこプリン.png" translatesAutoresizingMaskIntoConstraints="NO" id="MNf-Um-aSx">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="450"/>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.82635779649567609" blue="0.31339886327742356" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="eyecatch313.png" translatesAutoresizingMaskIntoConstraints="NO" id="aMU-DU-0KG">
+                                <rect key="frame" x="0.0" y="450" width="600" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="5Le-nS-Ib1"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="131" id="qee-ys-r7Q"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5Le-nS-Ib1"/>
+                                        <exclude reference="qee-ys-r7Q"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="version1.00." lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIm-4O-xQd">
+                                <rect key="frame" x="509" y="20" width="91" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="DJI-zs-Ksz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="冷蔵庫帳" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
-                                <rect key="frame" x="20" y="180" width="560" height="43"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.97170928030303028" green="0.97170928030303028" blue="0.97170928030303028" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.20392156859999999" green="0.59607843140000005" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
-                            <constraint firstAttribute="centerX" secondItem="GJd-Yh-RWb" secondAttribute="centerX" id="Q3B-4B-g5h"/>
-                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
-                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
-                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="bottom" multiplier="1/3" constant="1" id="moa-c2-u7t"/>
-                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" symbolic="YES" id="x7j-FC-K8j"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kIm-4O-xQd" secondAttribute="trailing" constant="-20" id="2Y7-mi-Ckb"/>
+                            <constraint firstItem="aMU-DU-0KG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="4iz-0l-vgo"/>
+                            <constraint firstItem="MNf-Um-aSx" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="78w-C9-JmS"/>
+                            <constraint firstItem="MNf-Um-aSx" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Bg7-xX-EMY"/>
+                            <constraint firstItem="aMU-DU-0KG" firstAttribute="top" secondItem="MNf-Um-aSx" secondAttribute="bottom" constant="8" id="F4d-GT-qGh"/>
+                            <constraint firstItem="aMU-DU-0KG" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="Jjy-IK-lXi"/>
+                            <constraint firstItem="kIm-4O-xQd" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="Mej-T1-FWC"/>
+                            <constraint firstItem="MNf-Um-aSx" firstAttribute="centerX" secondItem="aMU-DU-0KG" secondAttribute="centerX" id="SgR-P6-zQD"/>
+                            <constraint firstItem="aMU-DU-0KG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UHn-7a-Z2h"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="aMU-DU-0KG" secondAttribute="bottom" id="aZd-D1-ZGB"/>
+                            <constraint firstItem="aMU-DU-0KG" firstAttribute="top" secondItem="MNf-Um-aSx" secondAttribute="bottom" id="aep-PK-1tv"/>
+                            <constraint firstItem="aMU-DU-0KG" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.25" id="czg-s1-g4r"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="MNf-Um-aSx" secondAttribute="bottom" constant="58" id="f5l-iV-2D5"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="kIm-4O-xQd" secondAttribute="bottom" constant="559" id="gAb-Dv-sKJ"/>
+                            <constraint firstItem="aMU-DU-0KG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="rgS-ww-TIs"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="MNf-Um-aSx" secondAttribute="bottom" constant="81" id="t3a-pD-N2s"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aMU-DU-0KG" secondAttribute="trailing" constant="-20" id="vII-qj-UdC"/>
+                            <constraint firstAttribute="trailing" secondItem="MNf-Um-aSx" secondAttribute="trailing" id="wUG-wu-VYV"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4iz-0l-vgo"/>
+                                <exclude reference="F4d-GT-qGh"/>
+                                <exclude reference="Jjy-IK-lXi"/>
+                                <exclude reference="UHn-7a-Z2h"/>
+                                <exclude reference="f5l-iV-2D5"/>
+                                <exclude reference="t3a-pD-N2s"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -46,4 +84,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="eyecatch313.png" width="379" height="131"/>
+        <image name="れいぞうこプリン.png" width="700" height="900"/>
+    </resources>
 </document>

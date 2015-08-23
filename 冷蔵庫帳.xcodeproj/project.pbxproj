@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00FE23C390322EDF68CBC9CB /* libPods-冷蔵庫帳UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E09C1951097CF5A1187A9D37 /* libPods-冷蔵庫帳UITests.a */; };
+		762AACCC1B875914000956A6 /* れいぞうこ人参.png in Resources */ = {isa = PBXBuildFile; fileRef = 762AACC51B875914000956A6 /* れいぞうこ人参.png */; };
+		762AACCD1B875914000956A6 /* れいぞうこ空うさぎ.png in Resources */ = {isa = PBXBuildFile; fileRef = 762AACC61B875914000956A6 /* れいぞうこ空うさぎ.png */; };
+		762AACCE1B875914000956A6 /* れいぞうこ空.png in Resources */ = {isa = PBXBuildFile; fileRef = 762AACC71B875914000956A6 /* れいぞうこ空.png */; };
+		762AACCF1B875914000956A6 /* れいぞうこプリン.png in Resources */ = {isa = PBXBuildFile; fileRef = 762AACC81B875914000956A6 /* れいぞうこプリン.png */; };
+		762AACD01B875914000956A6 /* れいぞうこ.png in Resources */ = {isa = PBXBuildFile; fileRef = 762AACC91B875914000956A6 /* れいぞうこ.png */; };
+		762AACD11B875914000956A6 /* フラットなレシート.png in Resources */ = {isa = PBXBuildFile; fileRef = 762AACCA1B875914000956A6 /* フラットなレシート.png */; };
+		762AACD21B875914000956A6 /* スーパーのレシート.png in Resources */ = {isa = PBXBuildFile; fileRef = 762AACCB1B875914000956A6 /* スーパーのレシート.png */; };
+		762AACD41B876770000956A6 /* フラットなレシートres1.png in Resources */ = {isa = PBXBuildFile; fileRef = 762AACD31B876770000956A6 /* フラットなレシートres1.png */; };
+		76468A011B87836D001494C6 /* eyecatch313.png in Resources */ = {isa = PBXBuildFile; fileRef = 76468A001B87836D001494C6 /* eyecatch313.png */; };
+		76804EF21B85B825003ACD6F /* camera3.png in Resources */ = {isa = PBXBuildFile; fileRef = 76804EF11B85B825003ACD6F /* camera3.png */; };
+		7693EF821B83158400835AA7 /* f_019_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 7693EF811B83158400835AA7 /* f_019_128.png */; };
+		769601701B85D124003F59DF /* camera3 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 7696016F1B85D124003F59DF /* camera3 (1).png */; };
+		769601721B86F231003F59DF /* fallinlove.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 769601711B86F231003F59DF /* fallinlove.mp3 */; };
+		76C76EFE1B833E6700F120F6 /* databaseUtilitys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C76EFD1B833E6700F120F6 /* databaseUtilitys.swift */; };
+		76D4D9161B84796E0015EF3B /* SelectIOImageViewContoroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4D9151B84796E0015EF3B /* SelectIOImageViewContoroller.swift */; };
+		76D4D9181B847F6B0015EF3B /* cancel25.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D4D9171B847F6B0015EF3B /* cancel25.png */; };
+		76D4D91A1B84804A0015EF3B /* checked21.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D4D9191B84804A0015EF3B /* checked21.png */; };
+		B54AFDA85F99336E71FB29C0 /* libPods-冷蔵庫帳.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD39424C1894A584F34FD52 /* libPods-冷蔵庫帳.a */; };
 		C40881781B78EEEC008230D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40881771B78EEEC008230D6 /* AppDelegate.swift */; };
 		C408817A1B78EEEC008230D6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40881791B78EEEC008230D6 /* FirstViewController.swift */; };
 		C408817C1B78EEEC008230D6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C408817B1B78EEEC008230D6 /* SecondViewController.swift */; };
@@ -15,6 +34,34 @@
 		C40881841B78EEEC008230D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40881821B78EEEC008230D6 /* LaunchScreen.storyboard */; };
 		C408818F1B78EEEC008230D6 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C408818E1B78EEEC008230D6 /* ____Tests.swift */; };
 		C408819A1B78EEEC008230D6 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40881991B78EEEC008230D6 /* ____UITests.swift */; };
+		C42115CD1B805F8A00116148 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42115CC1B805F8A00116148 /* AVFoundation.framework */; };
+		C42115CF1B80707000116148 /* CollctionReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42115CE1B80707000116148 /* CollctionReceiptViewController.swift */; };
+		C42115D71B80799200116148 /* y01.png in Resources */ = {isa = PBXBuildFile; fileRef = C42115D01B80799200116148 /* y01.png */; };
+		C42115D81B80799200116148 /* y02.png in Resources */ = {isa = PBXBuildFile; fileRef = C42115D11B80799200116148 /* y02.png */; };
+		C42115D91B80799200116148 /* y03.png in Resources */ = {isa = PBXBuildFile; fileRef = C42115D21B80799200116148 /* y03.png */; };
+		C42115DA1B80799200116148 /* y04.png in Resources */ = {isa = PBXBuildFile; fileRef = C42115D31B80799200116148 /* y04.png */; };
+		C42115DB1B80799200116148 /* y05.png in Resources */ = {isa = PBXBuildFile; fileRef = C42115D41B80799200116148 /* y05.png */; };
+		C42115DC1B80799200116148 /* y06.png in Resources */ = {isa = PBXBuildFile; fileRef = C42115D51B80799200116148 /* y06.png */; };
+		C42115DD1B80799200116148 /* y07.png in Resources */ = {isa = PBXBuildFile; fileRef = C42115D61B80799200116148 /* y07.png */; };
+		C4271C8E1B80195C006D21FC /* cameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4271C8D1B80195C006D21FC /* cameViewController.swift */; };
+		C457C16C1B7CFC3E00D89265 /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457C16A1B7CFC3E00D89265 /* Entity+CoreDataProperties.swift */; };
+		C457C16D1B7CFC3E00D89265 /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457C16A1B7CFC3E00D89265 /* Entity+CoreDataProperties.swift */; };
+		C457C16E1B7CFC3E00D89265 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457C16B1B7CFC3E00D89265 /* Entity.swift */; };
+		C457C16F1B7CFC3E00D89265 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457C16B1B7CFC3E00D89265 /* Entity.swift */; };
+		C47BE8481B7AE4D4009EC6E6 /* IODATA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C47BE8461B7AE4D4009EC6E6 /* IODATA.xcdatamodeld */; };
+		C498DCF81B80CCE300485E55 /* imagePViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498DCF71B80CCE300485E55 /* imagePViewController.swift */; };
+		C4BF78C61B7B07780062ED24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BF78C51B7B07780062ED24 /* QuartzCore.framework */; };
+		C4BF78D01B7B5B460062ED24 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BF78CE1B7B51DD0062ED24 /* libsqlite3.tbd */; };
+		C4CE9A191B7A0A02005B8D99 /* Menu-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE9A171B7A0A02005B8D99 /* Menu-50.png */; };
+		C4CE9A1A1B7A0A02005B8D99 /* Money-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE9A181B7A0A02005B8D99 /* Money-50.png */; };
+		C4CE9A1C1B7A0AD4005B8D99 /* Add Rule-32.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE9A1B1B7A0AD4005B8D99 /* Add Rule-32.png */; };
+		C4CE9A201B7A273B005B8D99 /* ｵﾅｶｽｲﾀｰ1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE9A1D1B7A273B005B8D99 /* ｵﾅｶｽｲﾀｰ1.png */; };
+		C4CE9A211B7A273B005B8D99 /* ｵﾅｶｽｲﾀｰｵﾅｶｽｲﾀｰ.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE9A1E1B7A273B005B8D99 /* ｵﾅｶｽｲﾀｰｵﾅｶｽｲﾀｰ.png */; };
+		C4CE9A221B7A273B005B8D99 /* お腹すいた懇願からっぽ.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE9A1F1B7A273B005B8D99 /* お腹すいた懇願からっぽ.png */; };
+		C4CE9A241B7A4375005B8D99 /* お腹すいた懇願からっぽ3c.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE9A231B7A4375005B8D99 /* お腹すいた懇願からっぽ3c.png */; };
+		C4CE9A271B7A4441005B8D99 /* お腹すいた懇願からっぽ4c.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE9A251B7A4441005B8D99 /* お腹すいた懇願からっぽ4c.png */; };
+		C4CE9A281B7A4441005B8D99 /* お腹すいた懇願からっぽ6c.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CE9A261B7A4441005B8D99 /* お腹すいた懇願からっぽ6c.png */; };
+		D5456CC020D71180030EF91B /* libPods-冷蔵庫帳Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45860D8A6F28E3C3091B235 /* libPods-冷蔵庫帳Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +82,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F15635E55A279AD879D144C /* Pods-冷蔵庫帳Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-冷蔵庫帳Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-冷蔵庫帳Tests/Pods-冷蔵庫帳Tests.release.xcconfig"; sourceTree = "<group>"; };
+		450E18FF75600BD20B8229E7 /* Pods-冷蔵庫帳Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-冷蔵庫帳Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-冷蔵庫帳Tests/Pods-冷蔵庫帳Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		762AACC51B875914000956A6 /* れいぞうこ人参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "れいぞうこ人参.png"; path = "PIC/れいぞうこ人参.png"; sourceTree = "<group>"; };
+		762AACC61B875914000956A6 /* れいぞうこ空うさぎ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "れいぞうこ空うさぎ.png"; path = "PIC/れいぞうこ空うさぎ.png"; sourceTree = "<group>"; };
+		762AACC71B875914000956A6 /* れいぞうこ空.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "れいぞうこ空.png"; path = "PIC/れいぞうこ空.png"; sourceTree = "<group>"; };
+		762AACC81B875914000956A6 /* れいぞうこプリン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "れいぞうこプリン.png"; path = "PIC/れいぞうこプリン.png"; sourceTree = "<group>"; };
+		762AACC91B875914000956A6 /* れいぞうこ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "れいぞうこ.png"; path = "PIC/れいぞうこ.png"; sourceTree = "<group>"; };
+		762AACCA1B875914000956A6 /* フラットなレシート.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "フラットなレシート.png"; path = "PIC/フラットなレシート.png"; sourceTree = "<group>"; };
+		762AACCB1B875914000956A6 /* スーパーのレシート.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スーパーのレシート.png"; path = "PIC/スーパーのレシート.png"; sourceTree = "<group>"; };
+		762AACD31B876770000956A6 /* フラットなレシートres1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "フラットなレシートres1.png"; path = "PIC/フラットなレシートres1.png"; sourceTree = "<group>"; };
+		76468A001B87836D001494C6 /* eyecatch313.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyecatch313.png; path = PIC/eyecatch313.png; sourceTree = "<group>"; };
+		76804EF11B85B825003ACD6F /* camera3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera3.png; path = PIC/camera3.png; sourceTree = "<group>"; };
+		7693EF811B83158400835AA7 /* f_019_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = f_019_128.png; path = PIC/f_019/f_019_128.png; sourceTree = "<group>"; };
+		7696016F1B85D124003F59DF /* camera3 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera3 (1).png"; path = "PIC/camera3 (1).png"; sourceTree = "<group>"; };
+		769601711B86F231003F59DF /* fallinlove.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fallinlove.mp3; sourceTree = "<group>"; };
+		76C76EFD1B833E6700F120F6 /* databaseUtilitys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = databaseUtilitys.swift; sourceTree = "<group>"; };
+		76D4D9151B84796E0015EF3B /* SelectIOImageViewContoroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectIOImageViewContoroller.swift; sourceTree = "<group>"; };
+		76D4D9171B847F6B0015EF3B /* cancel25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancel25.png; path = PIC/cancel25.png; sourceTree = "<group>"; };
+		76D4D9191B84804A0015EF3B /* checked21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked21.png; path = PIC/checked21.png; sourceTree = "<group>"; };
+		A9C20AF9E27B5BFB5F4CFE82 /* Pods-冷蔵庫帳.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-冷蔵庫帳.release.xcconfig"; path = "Pods/Target Support Files/Pods-冷蔵庫帳/Pods-冷蔵庫帳.release.xcconfig"; sourceTree = "<group>"; };
+		AFD39424C1894A584F34FD52 /* libPods-冷蔵庫帳.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-冷蔵庫帳.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CCABFE9A630D1CDB40942B /* Pods-冷蔵庫帳UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-冷蔵庫帳UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-冷蔵庫帳UITests/Pods-冷蔵庫帳UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C40881741B78EEEC008230D6 /* 冷蔵庫帳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "冷蔵庫帳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40881771B78EEEC008230D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C40881791B78EEEC008230D6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +118,36 @@
 		C40881951B78EEEC008230D6 /* 冷蔵庫帳UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "冷蔵庫帳UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40881991B78EEEC008230D6 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
 		C408819B1B78EEEC008230D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42115CC1B805F8A00116148 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C42115CE1B80707000116148 /* CollctionReceiptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollctionReceiptViewController.swift; sourceTree = "<group>"; };
+		C42115D01B80799200116148 /* y01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = y01.png; path = PIC/y01.png; sourceTree = "<group>"; };
+		C42115D11B80799200116148 /* y02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = y02.png; path = PIC/y02.png; sourceTree = "<group>"; };
+		C42115D21B80799200116148 /* y03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = y03.png; path = PIC/y03.png; sourceTree = "<group>"; };
+		C42115D31B80799200116148 /* y04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = y04.png; path = PIC/y04.png; sourceTree = "<group>"; };
+		C42115D41B80799200116148 /* y05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = y05.png; path = PIC/y05.png; sourceTree = "<group>"; };
+		C42115D51B80799200116148 /* y06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = y06.png; path = PIC/y06.png; sourceTree = "<group>"; };
+		C42115D61B80799200116148 /* y07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = y07.png; path = PIC/y07.png; sourceTree = "<group>"; };
+		C4271C8D1B80195C006D21FC /* cameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameViewController.swift; sourceTree = "<group>"; };
+		C457C16A1B7CFC3E00D89265 /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C457C16B1B7CFC3E00D89265 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		C45860D8A6F28E3C3091B235 /* libPods-冷蔵庫帳Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-冷蔵庫帳Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47BE8471B7AE4D4009EC6E6 /* IODATA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IODATA.xcdatamodel; sourceTree = "<group>"; };
+		C498DCF71B80CCE300485E55 /* imagePViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imagePViewController.swift; sourceTree = "<group>"; };
+		C4BF78C51B7B07780062ED24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C4BF78CE1B7B51DD0062ED24 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C4CE9A131B7A02EE005B8D99 /* 冷蔵庫帳-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "冷蔵庫帳-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4CE9A171B7A0A02005B8D99 /* Menu-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Menu-50.png"; path = "PIC/Menu-50.png"; sourceTree = "<group>"; };
+		C4CE9A181B7A0A02005B8D99 /* Money-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Money-50.png"; path = "PIC/Money-50.png"; sourceTree = "<group>"; };
+		C4CE9A1B1B7A0AD4005B8D99 /* Add Rule-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add Rule-32.png"; path = "PIC/Add Rule-32.png"; sourceTree = "<group>"; };
+		C4CE9A1D1B7A273B005B8D99 /* ｵﾅｶｽｲﾀｰ1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ｵﾅｶｽｲﾀｰ1.png"; path = "PIC/ｵﾅｶｽｲﾀｰ1.png"; sourceTree = "<group>"; };
+		C4CE9A1E1B7A273B005B8D99 /* ｵﾅｶｽｲﾀｰｵﾅｶｽｲﾀｰ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ｵﾅｶｽｲﾀｰｵﾅｶｽｲﾀｰ.png"; path = "PIC/ｵﾅｶｽｲﾀｰｵﾅｶｽｲﾀｰ.png"; sourceTree = "<group>"; };
+		C4CE9A1F1B7A273B005B8D99 /* お腹すいた懇願からっぽ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "お腹すいた懇願からっぽ.png"; path = "PIC/お腹すいた懇願からっぽ.png"; sourceTree = "<group>"; };
+		C4CE9A231B7A4375005B8D99 /* お腹すいた懇願からっぽ3c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "お腹すいた懇願からっぽ3c.png"; path = "PIC/お腹すいた懇願からっぽ3c.png"; sourceTree = "<group>"; };
+		C4CE9A251B7A4441005B8D99 /* お腹すいた懇願からっぽ4c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "お腹すいた懇願からっぽ4c.png"; path = "PIC/お腹すいた懇願からっぽ4c.png"; sourceTree = "<group>"; };
+		C4CE9A261B7A4441005B8D99 /* お腹すいた懇願からっぽ6c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "お腹すいた懇願からっぽ6c.png"; path = "PIC/お腹すいた懇願からっぽ6c.png"; sourceTree = "<group>"; };
+		E09C1951097CF5A1187A9D37 /* libPods-冷蔵庫帳UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-冷蔵庫帳UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED09C13A835C0F0204FBBAA7 /* Pods-冷蔵庫帳UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-冷蔵庫帳UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-冷蔵庫帳UITests/Pods-冷蔵庫帳UITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA3D6CA065661C6C76EA8114 /* Pods-冷蔵庫帳.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-冷蔵庫帳.debug.xcconfig"; path = "Pods/Target Support Files/Pods-冷蔵庫帳/Pods-冷蔵庫帳.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +155,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42115CD1B805F8A00116148 /* AVFoundation.framework in Frameworks */,
+				C4BF78D01B7B5B460062ED24 /* libsqlite3.tbd in Frameworks */,
+				C4BF78C61B7B07780062ED24 /* QuartzCore.framework in Frameworks */,
+				B54AFDA85F99336E71FB29C0 /* libPods-冷蔵庫帳.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5456CC020D71180030EF91B /* libPods-冷蔵庫帳Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +174,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FE23C390322EDF68CBC9CB /* libPods-冷蔵庫帳UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D1A22C52C6195BA48EF94CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D6CA065661C6C76EA8114 /* Pods-冷蔵庫帳.debug.xcconfig */,
+				A9C20AF9E27B5BFB5F4CFE82 /* Pods-冷蔵庫帳.release.xcconfig */,
+				450E18FF75600BD20B8229E7 /* Pods-冷蔵庫帳Tests.debug.xcconfig */,
+				0F15635E55A279AD879D144C /* Pods-冷蔵庫帳Tests.release.xcconfig */,
+				C2CCABFE9A630D1CDB40942B /* Pods-冷蔵庫帳UITests.debug.xcconfig */,
+				ED09C13A835C0F0204FBBAA7 /* Pods-冷蔵庫帳UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76804EEE1B856DFB003ACD6F /* cameras */ = {
+			isa = PBXGroup;
+			children = (
+				C4271C8D1B80195C006D21FC /* cameViewController.swift */,
+				C42115CE1B80707000116148 /* CollctionReceiptViewController.swift */,
+				C498DCF71B80CCE300485E55 /* imagePViewController.swift */,
+				76D4D9151B84796E0015EF3B /* SelectIOImageViewContoroller.swift */,
+			);
+			name = cameras;
+			sourceTree = "<group>";
+		};
+		9158F39727E4727347F49060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C42115CC1B805F8A00116148 /* AVFoundation.framework */,
+				C4BF78CE1B7B51DD0062ED24 /* libsqlite3.tbd */,
+				C4BF78C51B7B07780062ED24 /* QuartzCore.framework */,
+				AFD39424C1894A584F34FD52 /* libPods-冷蔵庫帳.a */,
+				C45860D8A6F28E3C3091B235 /* libPods-冷蔵庫帳Tests.a */,
+				E09C1951097CF5A1187A9D37 /* libPods-冷蔵庫帳UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C408816B1B78EEEC008230D6 = {
 			isa = PBXGroup;
 			children = (
+				C457C16A1B7CFC3E00D89265 /* Entity+CoreDataProperties.swift */,
+				C457C16B1B7CFC3E00D89265 /* Entity.swift */,
+				C47BE8461B7AE4D4009EC6E6 /* IODATA.xcdatamodeld */,
 				C40881761B78EEEC008230D6 /* 冷蔵庫帳 */,
 				C408818D1B78EEEC008230D6 /* 冷蔵庫帳Tests */,
 				C40881981B78EEEC008230D6 /* 冷蔵庫帳UITests */,
 				C40881751B78EEEC008230D6 /* Products */,
+				1D1A22C52C6195BA48EF94CC /* Pods */,
+				9158F39727E4727347F49060 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +246,9 @@
 		C40881761B78EEEC008230D6 /* 冷蔵庫帳 */ = {
 			isa = PBXGroup;
 			children = (
+				769601711B86F231003F59DF /* fallinlove.mp3 */,
+				76804EEE1B856DFB003ACD6F /* cameras */,
+				C4CE9A161B7A09EF005B8D99 /* pict */,
 				C40881771B78EEEC008230D6 /* AppDelegate.swift */,
 				C40881791B78EEEC008230D6 /* FirstViewController.swift */,
 				C408817B1B78EEEC008230D6 /* SecondViewController.swift */,
@@ -106,6 +256,8 @@
 				C40881801B78EEEC008230D6 /* Assets.xcassets */,
 				C40881821B78EEEC008230D6 /* LaunchScreen.storyboard */,
 				C40881851B78EEEC008230D6 /* Info.plist */,
+				C4CE9A131B7A02EE005B8D99 /* 冷蔵庫帳-Bridging-Header.h */,
+				76C76EFD1B833E6700F120F6 /* databaseUtilitys.swift */,
 			);
 			path = "冷蔵庫帳";
 			sourceTree = "<group>";
@@ -128,6 +280,43 @@
 			path = "冷蔵庫帳UITests";
 			sourceTree = "<group>";
 		};
+		C4CE9A161B7A09EF005B8D99 /* pict */ = {
+			isa = PBXGroup;
+			children = (
+				76468A001B87836D001494C6 /* eyecatch313.png */,
+				762AACD31B876770000956A6 /* フラットなレシートres1.png */,
+				762AACC51B875914000956A6 /* れいぞうこ人参.png */,
+				762AACC61B875914000956A6 /* れいぞうこ空うさぎ.png */,
+				762AACC71B875914000956A6 /* れいぞうこ空.png */,
+				762AACC81B875914000956A6 /* れいぞうこプリン.png */,
+				762AACC91B875914000956A6 /* れいぞうこ.png */,
+				762AACCA1B875914000956A6 /* フラットなレシート.png */,
+				762AACCB1B875914000956A6 /* スーパーのレシート.png */,
+				7696016F1B85D124003F59DF /* camera3 (1).png */,
+				76804EF11B85B825003ACD6F /* camera3.png */,
+				76D4D9191B84804A0015EF3B /* checked21.png */,
+				76D4D9171B847F6B0015EF3B /* cancel25.png */,
+				7693EF811B83158400835AA7 /* f_019_128.png */,
+				C42115D01B80799200116148 /* y01.png */,
+				C42115D11B80799200116148 /* y02.png */,
+				C42115D21B80799200116148 /* y03.png */,
+				C42115D31B80799200116148 /* y04.png */,
+				C42115D41B80799200116148 /* y05.png */,
+				C42115D51B80799200116148 /* y06.png */,
+				C42115D61B80799200116148 /* y07.png */,
+				C4CE9A251B7A4441005B8D99 /* お腹すいた懇願からっぽ4c.png */,
+				C4CE9A261B7A4441005B8D99 /* お腹すいた懇願からっぽ6c.png */,
+				C4CE9A231B7A4375005B8D99 /* お腹すいた懇願からっぽ3c.png */,
+				C4CE9A1D1B7A273B005B8D99 /* ｵﾅｶｽｲﾀｰ1.png */,
+				C4CE9A1E1B7A273B005B8D99 /* ｵﾅｶｽｲﾀｰｵﾅｶｽｲﾀｰ.png */,
+				C4CE9A1F1B7A273B005B8D99 /* お腹すいた懇願からっぽ.png */,
+				C4CE9A1B1B7A0AD4005B8D99 /* Add Rule-32.png */,
+				C4CE9A171B7A0A02005B8D99 /* Menu-50.png */,
+				C4CE9A181B7A0A02005B8D99 /* Money-50.png */,
+			);
+			name = pict;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C408819E1B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳" */;
 			buildPhases = (
+				EC28E0CA03D176071ABB6721 /* Check Pods Manifest.lock */,
 				C40881701B78EEEC008230D6 /* Sources */,
 				C40881711B78EEEC008230D6 /* Frameworks */,
 				C40881721B78EEEC008230D6 /* Resources */,
+				7FEEC035ADA4584B5CF029C9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C40881A11B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳Tests" */;
 			buildPhases = (
+				2117692FB7599A04C97086CB /* Check Pods Manifest.lock */,
 				C40881861B78EEEC008230D6 /* Sources */,
 				C40881871B78EEEC008230D6 /* Frameworks */,
 				C40881881B78EEEC008230D6 /* Resources */,
+				7CF04E84AF955A2C5540CC71 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +363,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C40881A41B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳UITests" */;
 			buildPhases = (
+				B4C8B1B73FF0509B48D4B6C2 /* Check Pods Manifest.lock */,
 				C40881911B78EEEC008230D6 /* Sources */,
 				C40881921B78EEEC008230D6 /* Frameworks */,
 				C40881931B78EEEC008230D6 /* Resources */,
+				753099C94692251591AB4E54 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,11 +385,13 @@
 		C408816C1B78EEEC008230D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "早坂彪流";
 				TargetAttributes = {
 					C40881731B78EEEC008230D6 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = Z4PJE8V9QU;
 					};
 					C40881891B78EEEC008230D6 = {
 						CreatedOnToolsVersion = 7.0;
@@ -231,9 +428,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42115D91B80799200116148 /* y03.png in Resources */,
+				C4CE9A281B7A4441005B8D99 /* お腹すいた懇願からっぽ6c.png in Resources */,
+				C4CE9A201B7A273B005B8D99 /* ｵﾅｶｽｲﾀｰ1.png in Resources */,
+				762AACCE1B875914000956A6 /* れいぞうこ空.png in Resources */,
+				C4CE9A241B7A4375005B8D99 /* お腹すいた懇願からっぽ3c.png in Resources */,
 				C40881841B78EEEC008230D6 /* LaunchScreen.storyboard in Resources */,
+				C4CE9A191B7A0A02005B8D99 /* Menu-50.png in Resources */,
+				762AACCF1B875914000956A6 /* れいぞうこプリン.png in Resources */,
+				C4CE9A211B7A273B005B8D99 /* ｵﾅｶｽｲﾀｰｵﾅｶｽｲﾀｰ.png in Resources */,
+				76804EF21B85B825003ACD6F /* camera3.png in Resources */,
+				C42115DA1B80799200116148 /* y04.png in Resources */,
+				C4CE9A221B7A273B005B8D99 /* お腹すいた懇願からっぽ.png in Resources */,
+				762AACCC1B875914000956A6 /* れいぞうこ人参.png in Resources */,
+				769601721B86F231003F59DF /* fallinlove.mp3 in Resources */,
+				C42115DC1B80799200116148 /* y06.png in Resources */,
+				76468A011B87836D001494C6 /* eyecatch313.png in Resources */,
+				76D4D9181B847F6B0015EF3B /* cancel25.png in Resources */,
+				762AACD21B875914000956A6 /* スーパーのレシート.png in Resources */,
+				762AACCD1B875914000956A6 /* れいぞうこ空うさぎ.png in Resources */,
 				C40881811B78EEEC008230D6 /* Assets.xcassets in Resources */,
+				C4CE9A1C1B7A0AD4005B8D99 /* Add Rule-32.png in Resources */,
+				C42115DD1B80799200116148 /* y07.png in Resources */,
+				76D4D91A1B84804A0015EF3B /* checked21.png in Resources */,
+				769601701B85D124003F59DF /* camera3 (1).png in Resources */,
+				C4CE9A271B7A4441005B8D99 /* お腹すいた懇願からっぽ4c.png in Resources */,
 				C408817F1B78EEEC008230D6 /* Main.storyboard in Resources */,
+				C42115DB1B80799200116148 /* y05.png in Resources */,
+				C42115D81B80799200116148 /* y02.png in Resources */,
+				7693EF821B83158400835AA7 /* f_019_128.png in Resources */,
+				762AACD11B875914000956A6 /* フラットなレシート.png in Resources */,
+				C42115D71B80799200116148 /* y01.png in Resources */,
+				762AACD01B875914000956A6 /* れいぞうこ.png in Resources */,
+				762AACD41B876770000956A6 /* フラットなレシートres1.png in Resources */,
+				C4CE9A1A1B7A0A02005B8D99 /* Money-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +481,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2117692FB7599A04C97086CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		753099C94692251591AB4E54 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-冷蔵庫帳UITests/Pods-冷蔵庫帳UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CF04E84AF955A2C5540CC71 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-冷蔵庫帳Tests/Pods-冷蔵庫帳Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FEEC035ADA4584B5CF029C9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-冷蔵庫帳/Pods-冷蔵庫帳-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4C8B1B73FF0509B48D4B6C2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC28E0CA03D176071ABB6721 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C40881701B78EEEC008230D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C457C16C1B7CFC3E00D89265 /* Entity+CoreDataProperties.swift in Sources */,
+				C42115CF1B80707000116148 /* CollctionReceiptViewController.swift in Sources */,
 				C408817C1B78EEEC008230D6 /* SecondViewController.swift in Sources */,
+				C457C16E1B7CFC3E00D89265 /* Entity.swift in Sources */,
+				C47BE8481B7AE4D4009EC6E6 /* IODATA.xcdatamodeld in Sources */,
+				76C76EFE1B833E6700F120F6 /* databaseUtilitys.swift in Sources */,
+				C4271C8E1B80195C006D21FC /* cameViewController.swift in Sources */,
 				C40881781B78EEEC008230D6 /* AppDelegate.swift in Sources */,
+				C498DCF81B80CCE300485E55 /* imagePViewController.swift in Sources */,
 				C408817A1B78EEEC008230D6 /* FirstViewController.swift in Sources */,
+				76D4D9161B84796E0015EF3B /* SelectIOImageViewContoroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +597,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C457C16D1B7CFC3E00D89265 /* Entity+CoreDataProperties.swift in Sources */,
 				C408818F1B78EEEC008230D6 /* ____Tests.swift in Sources */,
+				C457C16F1B7CFC3E00D89265 /* Entity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -390,7 +721,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,31 +731,50 @@
 		};
 		C408819F1B78EEEC008230D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3D6CA065661C6C76EA8114 /* Pods-冷蔵庫帳.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "冷蔵庫帳/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "take.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "冷蔵庫帳/冷蔵庫帳-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C40881A01B78EEEC008230D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C20AF9E27B5BFB5F4CFE82 /* Pods-冷蔵庫帳.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "冷蔵庫帳/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "take.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "冷蔵庫帳/冷蔵庫帳-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		C40881A21B78EEEC008230D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450E18FF75600BD20B8229E7 /* Pods-冷蔵庫帳Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "冷蔵庫帳Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "take.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,9 +784,11 @@
 		};
 		C40881A31B78EEEC008230D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F15635E55A279AD879D144C /* Pods-冷蔵庫帳Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "冷蔵庫帳Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "take.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +800,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "冷蔵庫帳UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "take.----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,6 +813,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "冷蔵庫帳UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "take.----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +841,7 @@
 				C40881A01B78EEEC008230D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C40881A11B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +850,7 @@
 				C40881A31B78EEEC008230D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C40881A41B78EEEC008230D6 /* Build configuration list for PBXNativeTarget "冷蔵庫帳UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,8 +859,22 @@
 				C40881A61B78EEEC008230D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C47BE8461B7AE4D4009EC6E6 /* IODATA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C47BE8471B7AE4D4009EC6E6 /* IODATA.xcdatamodel */,
+			);
+			currentVersion = C47BE8471B7AE4D4009EC6E6 /* IODATA.xcdatamodel */;
+			path = IODATA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C408816C1B78EEEC008230D6 /* Project object */;
 }
